@@ -1,2 +1,36 @@
 /node_modules
+
+# Virtual Environment
+venv/
+.venv/
+
+# Bytecode and Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and Database Files
+*.log
+*.sqlite3
+*.db
+
+npm-debug.log
+yarn-error.log
+
 .env
+.env.local
+.env.development
+.env.production
+
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+/dist
+/build
+
+.ipfs/
+.solc_cache/
